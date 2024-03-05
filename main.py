@@ -13,7 +13,7 @@ def simplificaLinha(linha, x):#Primeiro termo não-nulo
 def resolveSistema(sistema, ordem):
 
     #Escalonando a matriz
-    #Se existir algum 1x, coloca a linha como a primeira
+    #Se existir algum 1, coloca a linha como a primeira
     for i in range(ordem):
         if sistema[i, 0] == 1:
             permutaLinha(sistema, i, 0)
